@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{3703D64F-3267-4C6F-BCA2-3072C76356F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPf", "WPf", "{C816A5BC-300E-4EC3-B9D3-971C27D9614C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders1_Ornek", "Ders1_Ornek\Ders1_Ornek.csproj", "{857F1656-728D-480D-A7F9-0EB5965AC1E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{857F1656-728D-480D-A7F9-0EB5965AC1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857F1656-728D-480D-A7F9-0EB5965AC1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857F1656-728D-480D-A7F9-0EB5965AC1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857F1656-728D-480D-A7F9-0EB5965AC1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{857F1656-728D-480D-A7F9-0EB5965AC1E4} = {3703D64F-3267-4C6F-BCA2-3072C76356F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {067C8CA2-B54F-49C6-B36A-98B8A1145AC1}
+	EndGlobalSection
+EndGlobal
