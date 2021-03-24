@@ -42,6 +42,7 @@ namespace Ders1_Ornek
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(192, 32);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -58,7 +59,7 @@ namespace Ders1_Ornek
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(18, 59);
+            this.listBox1.Location = new System.Drawing.Point(18, 72);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(312, 304);

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ders1_Ornek
+namespace Ders3_ListeKutusu
 {
     public partial class Form1 : Form
     {
@@ -17,20 +17,18 @@ namespace Ders1_Ornek
             InitializeComponent();
         }
 
-        private void PencereYuklendi(object sender, EventArgs e)
+        private void lbListe_SelectedIndexChanged(object sender, EventArgs e)
         {
+            tbMetin.Text = lbListe.Text;//seçili texti eşliyor
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            listBox1.Items.Add(textBox1.Text);
-            textBox1.Clear();
-            textBox1.Focus();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void Liste(object sender, KeyEventArgs e)
         {
 
+            if (e.KeyCode == Keys.Delete) 
+            {
+                lbListe.Items.RemoveAt(lbListe.SelectedIndex);
+            }
         }
     }
 }
